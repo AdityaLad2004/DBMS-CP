@@ -1,6 +1,6 @@
-// ./app/homepage/addProduct/AddProduct.js
+
 'use client'
-import { useRouter } from "next/navigation"; // Use useRouter for client-side navigation
+import { useRouter } from "next/navigation";
 import React, { useState } from 'react';
 import Link from 'next/link';
 function AddProduct() {
@@ -18,9 +18,9 @@ function AddProduct() {
 
     const handleSubmit = e => {
         e.preventDefault();
-        console.log(formData); // This will log the form data
+        console.log(formData);
 
-        // Navigate to the other page with form data as query parameters
+
         router.push({
             pathname: '/homepage/viewProduct',
             query: formData

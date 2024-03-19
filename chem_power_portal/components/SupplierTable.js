@@ -1,4 +1,4 @@
-// components/SupplierTable.js
+
 
 import React from 'react';
 
